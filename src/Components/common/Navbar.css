@@ -1,0 +1,17 @@
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
+article {
+    padding-left: 15px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+article :visited{
+    color: antiquewhite;
+    text-decoration: none;
+}

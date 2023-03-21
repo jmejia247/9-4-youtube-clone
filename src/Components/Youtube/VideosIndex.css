@@ -1,0 +1,18 @@
+
+body {
+    background-color: antiquewhite;
+}
+
+button {
+    min-height: 20px;
+    min-width: 20px;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ".video .video .video";
+    padding-top: 25px;
+}
